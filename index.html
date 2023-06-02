@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="image-tint">
+          <picture class="card__image">
+            <source srcset="images/image-header-desktop.jpg" media="(min-width: 1440px)">
+            <img
+              src="images/image-header-mobile.jpg"
+              alt="A picture displaying three persons sitting in an office environment. One of them is smiling and talking to someone outside of photo's frame, other two are working with code behind their laptops."
+            />
+          </picture>
+        </div>
+        <div class="card__text-area">
+          <h1 class="card__title">
+            Get <span class="card__title-accent">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="card__text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="card__stats-box">
+            <div class="card__stats">
+              <h2 class="card__stats-title">companies</h2>
+              <p class="card__stats-numbers">10k+</p>
+            </div>
+            <div class="card__stats">
+              <h2 class="card__stats-title">templates</h2>
+              <p class="card__stats-numbers">314</p>
+            </div>
+            <div class="card__stats">
+              <h2 class="card__stats-title">queries</h2>
+              <p class="card__stats-numbers">12M+</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
