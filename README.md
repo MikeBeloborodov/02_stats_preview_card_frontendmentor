@@ -79,7 +79,7 @@ img {
 }
 ```
 
-The last interesting thing was changing between desktop and mobile pictures, I decided to use a method, that I've learned from Kevin Powell (https://www.youtube.com/@KevinPowell). It uses <picture> tag and a <source> tag to change between pictures when a certain media query fires: 
+The last interesting thing was changing between desktop and mobile pictures, I decided to use a method, that I've learned from Kevin Powell (https://www.youtube.com/@KevinPowell). It uses picture tag and a source tag to change between pictures when a certain media query fires: 
 
 ```html
 <picture class="card__image">
