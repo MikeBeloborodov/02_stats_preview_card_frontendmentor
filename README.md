@@ -99,7 +99,7 @@ Also maybe work on my animations a little bit next time.
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/) - Of cource answered some of my simple questions, but mostly it was youtube or MDN.
+- [Stackoverflow](https://stackoverflow.com/) - Of cource answered some of my simple questions, but mostly it was youtube or MDN.
 
 ## Author
 
