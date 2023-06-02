@@ -67,12 +67,6 @@ body {
     margin: 0 1.3rem;
 }
 
-@media(min-width: 1440px) {
-    .card {
-        display: flex;
-    }
-}
-
 .card__text-area {
     background-color: var(--clr-card-background);
     padding: 2rem 2rem;
@@ -132,4 +126,47 @@ body {
 
 img {
     opacity: 0.4;
+}
+
+@media(min-width: 1440px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1180px;
+    }
+
+    .card__text-area {
+        flex: 1 1 0;
+        padding-top: 4rem;
+        padding-right: 3.9rem;
+        padding-left: 4.1rem;
+        text-align: start;
+    }
+
+    .card__title {
+        text-align: start;
+        font-size: 2.35rem;
+    }
+
+    .card__text {
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+        padding-right: 5rem;
+    }
+
+    .card__stats-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card__stats {
+        margin-bottom: 0;
+    }
+
+    .image-tint {
+        flex: 1 1 0;
+    }
 }
