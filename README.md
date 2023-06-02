@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MikeBeloborodov/02_stats_preview_card_frontendmentor)
-- Live Site URL: [Add live site URL here](https://gorgeous-gnome-55c2f9.netlify.app/)
+- Solution URL: [Github](https://github.com/MikeBeloborodov/02_stats_preview_card_frontendmentor)
+- Live Site URL: [Netlify](https://gorgeous-gnome-55c2f9.netlify.app/)
 
 ## My process
 
